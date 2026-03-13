@@ -1,0 +1,62 @@
+,,,,,,,,,,,,,,,,,,
+Column 1,Player,Position,Overall,Price,rank,,,,,,,,,,,,,
+9,NaN,AM,84,2110,useless,,,,,,,,,,,,,
+25,NaN,CB,84,1745,useful,,,,,,,,,,,,,
+35,NaN,CB,81,1570,useful,,,,,,,,,Position Group,ID,Short Name,Player Positions,Overall
+39,NaN,CB,80,1460,useful,,,,,Goalkeeper (Cluster 1):,,,,Goalkeeper,6,M. Neuer,GK,90
+1,NaN,CF,86,2675,useless,,,,,short_name,player_positions,,overall,Defenders,34,K. Koulibaly,CB,87
+11,NaN,CM,83,1975,useful,,,,,6   M,Neuer               GK       90,,,Defenders,91,G. Chiellini,CB,84
+12,NaN,CM,83,1955,useless,,,,,,,,,Defenders,1820,P. Beruatto,LB,75
+15,NaN,CM,82,1900,useful,,,,,Defenders (Cluster 2):,,,,Defenders,878,Hugo Mallo,RB,77
+21,NaN,GK,85,1800,elite,,,,,short_name player_positions  overall,,,,Midfielders,3,K. De Bruyne,"CM, CAM",91
+34,NaN,LB,81,1570,below average,,,,,34    K. Koulibaly               CB,87,,,Midfielders,12,Casemiro,CDM,89
+2,NaN,WF,85,2410,useless,,,,,91    G. Chiellini               CB,84,,,Midfielders,11,H. Son,"LW, LM",89
+,,,,,,,,,,1820   P. Beruatto               LB,75,,,Midfielders,15,S. Mané,"LM, CF",89
+,,,,,,,,,,878     Hugo Mallo               RB,77,,,Forwards,4,K. Mbappé,"ST, LW",91
+,,,,,,,,,,,,,,Forwards,5,Cristiano Ronaldo,ST,90
+,,,,,,,,,,Midfielders (Cluster 3):,,,,,,,,
+,,,,,,,,,,short_name player_positions  overall,,,,,,,,
+,,,,,,,,,,"3   K. De Bruyne          CM, CAM",91,,,,,,,
+,,,,,,,,,,12      Casemiro              CDM,89,,,,,,,
+Column 1,Player,Position,Overall,Price,efficiency,rank,,,,"11        H. Son           LW, LM",89,,,,,,,
+49,NaN,AM,77,1205,0.0639,below average,,,,"15      S. ManÃ©           LM, CF",89,,,,,,,
+45,NaN,AM,78,1410,0.055319,below average,,,,,,,,,,,,
+38,NaN,AM,79,1525,0.051803,useful,,,,,,,,,,,,
+48,NaN,CB,78,1255,0.062151,below average,,,,Forwards (Cluster 4):,,,,,,,,
+47,NaN,CB,79,1355,0.058303,useful,,,,short_name player_positions  overall,,,,,,,,
+46,NaN,CB,79,1355,0.058303,useful,,,,"4         K. MbappÃ©           ST, LW",91,,,,,,,
+28,NaN,CF,79,1650,0.047879,below average,,,,5  Cristiano Ronaldo               ST,90,,,,,,,
+29,NaN,CF,79,1650,0.047879,below average,,,,,,,,,,,,
+33,NaN,CM,81,1635,0.049541,useful,,,,,,,,,,,,
+44,NaN,GK,81,1420,0.057042,elite,,,,,,,,,,,,
+50,NaN,RB,77,1070,0.071963,below average,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+short_name,categorical,,Feature,Type,Description,,,,,,,,,,,,,
+player_positions,categorical,,short_name,Categorical,Player name,,,,,,,,,,,,,
+overall,numerical,,player_positions,Categorical,List of positions player can play,,,,,,,,,,,,,
+potential,numerical,,overall,Numerical,Overall rating,,,,,,,,,,,,,
+value_eur,numerical,,potential,Numerical,Player potential rating,,,,,,,,,,,,,
+wage_eur,numerical,,pace,Numerical,Speed attribute,,,,,,,,,,,,,
+nationality_name,categorical,,shooting,Numerical,Shooting ability,,,,,,,,,,,,,
+preferred_foot,categorical,,passing,Numerical,Passing ability,,,,,,,,,,,,,
+pace,numerical,,defending,Numerical,Defensive ability,,,,,,,,,,,,,
+shooting,numerical,,skill_ball_control,Numerical,Ball control skill,,,,,,,,,,,,,
+passing,numerical,,skill_long_passing,Numerical,Long passing skill,,,,,,,,,,,,,
+defending,numerical,,movement_balance,Numerical,Balance attribute,,,,,,,,,,,,,
+skill_ball_control,numerical,,power_stamina,Numerical,Stamina attribute,,,,,,,,,,,,,
+skill_long_passing,numerical,,attacking_crossing,Numerical,Crossing skill,,,,,,,,,,,,,
+movement_balance,numerical,,attacking_finishing,Numerical,Finishing skill,,,,,,,,,,,,,
+power_stamina,numerical,,attacking_heading_accuracy,Numerical,Heading accuracy,,,,,,,,,,,,,
+attacking_crossing,numerical,,attacking_short_passing,Numerical,Short passing skill,,,,,,,,,,,,,
+attacking_finishing,numerical,,mentality_penalties,Numerical,Penalty ability,,,,,,,,,,,,,
+attacking_heading_accuracy,numerical,,defending_marking_awareness,Numerical,Marking awareness,,,,,,,,,,,,,
+attacking_short_passing,numerical,,defending_standing_tackle,Numerical,Standing tackle,,,,,,,,,,,,,
+mentality_penalties,numerical,,defending_sliding_tackle,Numerical,Sliding tackle,,,,,,,,,,,,,
+defending_marking_awareness,numerical,,goalkeeping_diving,Numerical,Goalkeeper diving,,,,,,,,,,,,,
+defending_standing_tackle,numerical,,goalkeeping_handling,Numerical,Goalkeeper handling,,,,,,,,,,,,,
+defending_sliding_tackle,numerical,,goalkeeping_kicking,Numerical,Goalkeeper kicking,,,,,,,,,,,,,
+goalkeeping_diving,numerical,,goalkeeping_positioning,Numerical,Goalkeeper positioning,,,,,,,,,,,,,
+goalkeeping_handling,numerical,,goalkeeping_reflexes,Numerical,Goalkeeper reflexes,,,,,,,,,,,,,
+goalkeeping_kicking,numerical,,,,,,,,,,,,,,,,,
+goalkeeping_positioning,numerical,,24,,,,,,,,,,,,,,,
+goalkeeping_reflexes,numerical,,,,,,,,,,,,,,,,,
